@@ -366,7 +366,7 @@ def main():
                         base_url="https://accounting-clients.api.datev.de/platform-sandbox/v2",
                         token=st.session_state.access_token,
                         headers={
-                            "x-datev-client-id": "2dc1ae73bb210ebaa3df04c703ec779d"
+                            "x-datev-client-id": CLIENT_ID
                         }
                     )
                     with client as client:
